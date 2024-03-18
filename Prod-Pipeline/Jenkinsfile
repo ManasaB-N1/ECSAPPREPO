@@ -1,0 +1,6 @@
+stage 'Load a file from GitHub'
+def jenkinsFile = fileLoader.fromGit("<PIPELINE_JENKINSFILE_LOCATION>", "<PIPELINE_JENKINSFILE_REPO_URL", "<PIPELINE_JENKINSFILE_REPO_BRANCH_NAME>", "<PIPELINE_JENKINSFILE_REPO_GIT_CREDENTIALS_ID>", '')
+
+stage 'Run method from the loaded file'
+    
+jenkinsFile
