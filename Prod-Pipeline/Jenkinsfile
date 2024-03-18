@@ -1,5 +1,5 @@
 stage 'Load a file from GitHub'
-def jenkinsFile = fileLoader.fromGit("Prod-Pipeline/pipeline_scripts/Jenkinsfile.groovy", "https://github.com/ManasaB-N1/ECSCICDREPO.git", "main", "3f54d5cc-13eb-4bf1-b3cf-dee02a942a81", '')
+def jenkinsFile = fileLoader.fromGit("Prod-Pipeline/pipeline_scripts/Jenkinsfile.groovy", "https://github.com/ManasaB-N1/ECSCICDREPO.git", "main", "8a28dca5-0aef-47a8-b62b-f40a071d2715", '')
 
 stage 'Run method from the loaded file'
     
